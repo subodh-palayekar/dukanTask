@@ -3,13 +3,17 @@ import  "./Sidebar.css"
 import { FaAngleDown } from "react-icons/fa6";
 import Option from './Option';
 import { optionData } from '../../Utils/optionData';
+// import { optionData } from '../../assets/user.png';
+
 
 const Sidebar = () => {
+
+  const userimage = "/assets/user.png"
   return (
     <div className='sidebar-container'>
       <div className="profile">
         <div className="profile-icon">
-            <img src="" alt="" />
+            <img width={"90%"} src='/assets/user.png' alt="userimage"/>
             
         </div>
         <div className="profile-detail">
@@ -41,6 +45,8 @@ const Sidebar = () => {
                 <span>222.10</span>
             </div>
       </div>
+
+      
     </div>
   )
 }
