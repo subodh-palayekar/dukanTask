@@ -1,0 +1,123 @@
+.navbar-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--icon-grey);
+    height: 52px;
+    padding: 0 32px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    background-color: white;
+}
+
+
+
+.nav-search {
+    border: none;
+    width: 400px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    padding-inline-start: 16px;
+    gap: 5px;
+   color: #808080;
+   font-family: 'Galano Grotesque Alt', sans-serif;
+   margin-right: 125px;
+}
+
+.nav-search input {
+    border: none;
+    background: transparent;
+    width: 90%;
+}
+
+.nav-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-left span:nth-child(1){
+    font-weight: 550;
+}
+.nav-left span:nth-child(2){
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 6px;
+    font-size: 12px;
+    color:#4D4D4D;
+    
+}
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.overview-container{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.overview-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.overview-top span{
+    font-weight: 600;
+}
+
+.select{
+    padding: 9px 0;
+    font-size: medium;
+    padding: 7px 16px;
+    border: 1.5px solid #D9D9D9;    
+    color: #4D4D4D;
+    border-radius: 4px;
+    background-color: white;
+}
+.overview-top select{
+   border: none;
+   background-color: transparent;
+   padding-right: 3px;
+}
+
+.overview-bottom{
+    display: flex;
+    gap: 24px;
+
+}
+.overview-tab{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    padding-left: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px 0px #1A181E0A;
+
+
+}
+
+.overview-tab span:nth-child(1){
+    color: #808080;
+    font-weight: 400;
+    font-size: 15px;
+}
+.overview-tab span:nth-child(2){
+    font-weight: 600;
+    font-size: 26px;
+}

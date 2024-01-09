@@ -1,0 +1,18 @@
+
+.dashboard-container{
+    display: flex;
+    
+
+}
+
+
+.sidebar{
+    width: 15.7%;
+    display: flex;
+    background-color: #1e2640;
+}
+
+.info-page{
+    background-color: #fafafa;
+    width: 84.3%;
+}
